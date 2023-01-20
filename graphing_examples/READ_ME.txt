@@ -25,3 +25,5 @@ in this directory).
 
 As the files required to run these are not in the directory, please use these files to simply take
 a look at how I typically code graphs. 
+
+The output of the code is in the folder as .png files.
