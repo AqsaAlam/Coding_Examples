@@ -12,7 +12,7 @@ I usually use this file when I have systematic gene names in my representation t
 to convert to long descriptions so that when I visualize my heat map in Java Treeview, I get
 a sense of what kind of function a cluster of genes might be enriched for.
 
-The code requires three files (which are currently not in this directory):
+The code requires three files (all of which I've put in here):
 - fix_me.txt
 - fixed.txt
 - full_yeast_descriptions.txt
@@ -25,6 +25,8 @@ will be in fixed.txt.
 The purpose of this file is to download yeast 3'UTR sequences from Ensembl.
 The output of this is a FASTA file for each S. cerevisiae gene containing the promoter
 sequence for that gene and its orthologous sequences (for up to 36 different yeast). 
+
+I've put an example of one of the outputs (YER024W.txt). 
 
 > diffraction.py
 

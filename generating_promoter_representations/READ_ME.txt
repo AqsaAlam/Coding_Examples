@@ -9,6 +9,9 @@ The purpose of these files is to provide some examples of code.
 This is a well-annotated code describing how I used machine learning tools (keras, tensorflow, 
 machine learning architecture) to create a fast motif scanner. 
 
+This one in particular has been edited so the output is binary (1 if there is a binding site,
+0 if there isn't). 
+
 > yeast_promoter_representation_generator.py
 
 This cannot currently be run as is as it requires many files which are currently not in the directory:
@@ -18,7 +21,9 @@ This cannot currently be run as is as it requires many files which are currently
 - a file of real reverse motifs
 - 4337 FASTA files of yeast promoter sequences
 
-However, this is the MAIN CODE used to generate representations of yeast promoter sequences. 
+However, this is the MAIN CODE used to generate representations of yeast promoter sequences.
+
+I have put an example of the output for this code file in the directory. 
 
 ########## MORE INFO ##########
 

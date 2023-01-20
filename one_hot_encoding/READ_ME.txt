@@ -26,6 +26,8 @@ After running this, move the .npz files into a new directory for the model.
 
 ########## MORE INFO ##########
 
+This cannot be run as is, but I've put an example of input and output (YAL001C.txt and YAL001C.npz)
+
 THE ORDER IS A, C, G, T!
 
 You don't have to run this to recreate the data in my thesis, because they've already been converted.
