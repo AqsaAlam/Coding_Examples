@@ -107,9 +107,7 @@ def representation_evaluator(name_of_representation, representation_file, evalua
     
     # Create the distance matrix
     distance_matrix = cdist(X, X, "cosine")
-    
-    # truthfully I don't remember what this does :sob:
-    # I think I wrote this to fix an error I was getting...
+
         
     distance_matrix[distance_matrix == -np.inf] = 0
     distance_matrix[distance_matrix == +np.inf] = 1
@@ -152,7 +150,6 @@ def representation_evaluator(name_of_representation, representation_file, evalua
         
         
         # Convert gene_evaluations and neighbour_evaluations to dtype = float
-        # Because for some DUMB reason they're dtype = object...why python, why...
         
         gene_evaluation = np.array(evaluation_dictionary[gene], dtype = float) # evaluation vector of gene
         neighbour_evaluation = np.array(evaluation_dictionary[neighbour], dtype = float) # evaluation vector of neighbour
